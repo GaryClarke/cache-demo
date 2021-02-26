@@ -20,7 +20,7 @@ class StockRepository extends ServiceEntityRepository
     }
 
     // /**
-    //  * @return Rate[] Returns an array of Rate objects
+    //  * @return Stock[] Returns an array of Stock objects
     //  */
     /*
     public function findByExampleField($value)
@@ -37,7 +37,7 @@ class StockRepository extends ServiceEntityRepository
     */
 
     /*
-    public function findOneBySomeField($value): ?Rate
+    public function findOneBySomeField($value): ?Stock
     {
         return $this->createQueryBuilder('r')
             ->andWhere('r.exampleField = :val')
